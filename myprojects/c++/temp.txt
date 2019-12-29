@@ -1,0 +1,11 @@
+#nimum required CMake Version
+cmake_minimum_required(VERSION 3.6.1)
+
+#Project Name
+project(hello)
+
+#把当前目录(.)下所有源代码文件和头文件加入变量SRC_LIST
+AUX_SOURCE_DIRECTORY(. SRC_LIST)
+
+#生成应用程序hello(在windows下生成hello.exe)
+ADD_EXECUTABLE(hello ${SRC_LIST})
