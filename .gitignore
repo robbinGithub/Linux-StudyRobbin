@@ -1,6 +1,7 @@
 *.d
 *.obj
 *.o
+*.out
 *.tlog
 *.lastbuildstate
 *.idb
