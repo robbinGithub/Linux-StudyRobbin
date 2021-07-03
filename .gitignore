@@ -21,6 +21,7 @@
 
 #CLion
 .clion.source.upload.marker
+.idea
 
 #Execuatelbe
 Tutorial
@@ -30,3 +31,4 @@ low_open
 low_read
 test
 main
+
